@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.a4d08d2e.css",
-    "main.js": "/static/js/main.55b85066.js",
+    "main.js": "/static/js/main.29a33177.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.5882c763.chunk.js": "/static/js/64.5882c763.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.a8b20558.chunk.js": "/static/js/769.a8b20558.chunk.js",
     "static/media/stanfordLogo.png": "/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
+    "static/media/resume.pdf": "/static/media/resume.786a70cdd91f56b74758.pdf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Ribeye-Regular.ttf": "/static/media/Ribeye-Regular.7089bd1fdbb65cb68f42.ttf",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/resume.pdf": "/static/media/resume.f0f733dd3cd732b39262.pdf",
     "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.a4d08d2e.css.map": "/static/css/main.a4d08d2e.css.map",
-    "main.55b85066.js.map": "/static/js/main.55b85066.js.map",
+    "main.29a33177.js.map": "/static/js/main.29a33177.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.5882c763.chunk.js.map": "/static/js/64.5882c763.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.a4d08d2e.css",
-    "static/js/main.55b85066.js"
+    "static/js/main.29a33177.js"
   ]
 }
