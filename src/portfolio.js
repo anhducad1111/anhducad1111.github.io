@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate IoT & Robotics Engineer 🤖 with experience in automation technology, AI applications and embedded systems development. Working on innovative solutions for real-world challenges through smart IoT systems."
   ),
-  resumeLink: "", // Will update when you have a resume link
+  resumeLink: "https://www.canva.com/design/DAGbyXOqKBI/k30bWfuZh-wNNUGhZ-WUYQ/edit", // Will update when you have a resume link
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -33,10 +33,12 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/anhducad1111",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/in/anhducad1111/",
   gmail: "anhducad1111@gmail.com",
+  gitlab: "https://gitlab.com/anhducad1111",
   facebook: "https://www.facebook.com/anhducad1111",
-  stackoverflow: "",
+  medium: "https://medium.com/@anhducad1111",
+  stackoverflow: "https://stackoverflow.com/users/26818087/anhducad1111",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
