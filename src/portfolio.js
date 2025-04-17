@@ -109,7 +109,7 @@ const educationInfo = {
     {
       schoolName:
         "Vietnam-Korea University of Information and Communication Technology (VKU)",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/logoVKU.png"),
       subHeader: "IoT & Robotics Engineering",
       duration: "2021 - Present",
       desc: "Currently pursuing studies in IoT systems and robotics applications with GPA: 3.14/4.0",
