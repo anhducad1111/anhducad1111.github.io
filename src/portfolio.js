@@ -213,7 +213,31 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  display: false
+  title: "Blog Posts",
+  subtitle:
+    "Sharing thoughts and insights about personal growth and technology",
+  display: true,
+  blogs: [
+    {
+      url: "https://medium.com/@anhducad1111/dont-rely-too-much-on-tools-embrace-self-reliance-in-development-a572c39f8e3d",
+      title:
+        "Don't Rely Too Much on Tools: Embrace Self-Reliance in Development",
+      description:
+        "Why it's crucial to understand core concepts before heavily relying on development tools and frameworks. Building a strong foundation through self-learning and experimentation."
+    },
+    {
+      url: "https://medium.com/@anhducad1111/the-importance-of-independent-thinking-in-software-engineering-b8f697d23c45",
+      title: "The Importance of Independent Thinking in Software Engineering",
+      description:
+        "How developing your own problem-solving skills and critical thinking can make you a better engineer, rather than always depending on existing solutions."
+    },
+    {
+      url: "https://medium.com/@anhducad1111/balancing-tool-usage-and-fundamental-understanding-c9d84e5a1b2f",
+      title: "Balancing Tool Usage and Fundamental Understanding",
+      description:
+        "Finding the right balance between leveraging tools for productivity while maintaining deep understanding of core principles and concepts."
+    }
+  ]
 };
 
 // Talks Sections

@@ -56,10 +56,6 @@
   background-color: $medium;
 }
 
-.kaggle i {
-  background-color: $kaggle;
-}
-
 .instagram i {
   background-color: $instagram;
 }
@@ -73,7 +69,6 @@
 .facebook i:hover,
 .instagram i:hover,
 .stack-overflow i:hover,
-.kaggle i:hover,
 .medium i:hover {
   background-color: $textColor;
 }
