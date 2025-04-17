@@ -1,5 +1,10 @@
 @import "../../_globalColor";
-
+@font-face {
+  font-family: 'Ribeye';
+  src: url('../../assets/fonts/Ribeye-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 /*React-headroom*/
 .headroom-wrapper {
   max-height: 100px;
