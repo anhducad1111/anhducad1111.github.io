@@ -39,7 +39,6 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/anhducad1111",
   facebook: "https://www.facebook.com/anhducad1111",
   medium: "https://medium.com/@anhducad1111",
-  // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -269,12 +268,7 @@ const contactInfo = {
   email_address: "anhducad1111@gmail.com"
 };
 
-// Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
@@ -294,7 +288,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails,
   isHireable,
   resumeSection
 };
