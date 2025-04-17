@@ -23,11 +23,9 @@
   "scripts": {
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "npm run format && npm run build && xcopy /s /y build\\* . && git add . && git commit -m \"Deploy build files to main\" && git push origin main",
+    "deploy": "npm run build && xcopy /s /y build\\* . && git add . && git commit -m \"Deploy build files to main\" && git push origin main",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
-    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -51,7 +49,6 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "dotenv": "^8.2.0",
-    "prettier": "^2.3.1"
+    "dotenv": "^8.2.0"
   }
 }
