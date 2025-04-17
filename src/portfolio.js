@@ -25,7 +25,8 @@ const greeting = {
   subTitle: emoji(
     "A passionate IoT & Robotics Engineer 🤖 with experience in automation technology, AI applications and embedded systems development. Working on innovative solutions for real-world challenges through smart IoT systems."
   ),
-  resumeLink: "https://www.canva.com/design/DAGbyXOqKBI/k30bWfuZh-wNNUGhZ-WUYQ/edit", // Will update when you have a resume link
+  resumeLink:
+    "https://www.canva.com/design/DAGbyXOqKBI/k30bWfuZh-wNNUGhZ-WUYQ/edit", // Will update when you have a resume link
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,7 +39,6 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/anhducad1111",
   facebook: "https://www.facebook.com/anhducad1111",
   medium: "https://medium.com/@anhducad1111",
-  stackoverflow: "https://stackoverflow.com/users/26818087/anhducad1111",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,7 +48,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "IOT & ROBOTICS ENGINEER SPECIALIZING IN SMART AUTOMATION SOLUTIONS",
+  subTitle:
+    "IOT & ROBOTICS ENGINEER SPECIALIZING IN SMART AUTOMATION SOLUTIONS",
   skills: [
     emoji(
       "⚡ Develop IoT systems and robotics applications for automation and monitoring"
@@ -107,7 +108,8 @@ const educationInfo = {
   display: true,
   schools: [
     {
-      schoolName: "Vietnam-Korea University of Information and Communication Technology (VKU)",
+      schoolName:
+        "Vietnam-Korea University of Information and Communication Technology (VKU)",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "IoT & Robotics Engineering",
       duration: "2021 - Present",
@@ -127,15 +129,15 @@ const techStack = {
   experience: [
     {
       Stack: "IoT & Embedded Systems",
-      progressPercentage: "85%"
+      progressPercentage: "65%"
     },
     {
       Stack: "Computer Vision & AI",
-      progressPercentage: "75%"
+      progressPercentage: "55%"
     },
     {
       Stack: "Mobile & Web Development",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -164,7 +166,8 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "IoT Fire Monitoring and Alert System",
-      projectDesc: "Real-time monitoring system for temperature, humidity, and fire detection with instant alerts",
+      projectDesc:
+        "Real-time monitoring system for temperature, humidity, and fire detection with instant alerts",
       footerLink: [
         {
           name: "Project Details",
@@ -175,7 +178,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Drone Simulation for Workplace Safety",
-      projectDesc: "Simulation of drones for monitoring workers and checking safety equipment compliance",
+      projectDesc:
+        "Simulation of drones for monitoring workers and checking safety equipment compliance",
       footerLink: [
         {
           name: "Project Details",
@@ -186,7 +190,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Smart Water Meter and Home Monitoring",
-      projectDesc: "Camera-based water meter reading system with home environment monitoring and remote control",
+      projectDesc:
+        "Camera-based water meter reading system with home environment monitoring and remote control",
       footerLink: [
         {
           name: "Project Details",
