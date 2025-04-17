@@ -108,7 +108,7 @@ const educationInfo = {
   schools: [
     {
       schoolName:
-        "Vietnam-Korea University of Information and Communication Technology (VKU)",
+        "Vietnam-Korea University (VKU)",
       logo: require("./assets/images/logoVKU.png"),
       subHeader: "IoT & Robotics Engineering",
       duration: "2021 - Present",
