@@ -3,31 +3,30 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true
 };
 
 const greeting = {
   username: "anhducad1111",
-  title: "Hi all, I'm Anh Duc",
+  title: "Hi all, I'm Nguyen Anh Duc",
   subTitle: emoji(
-    "A passionate IoT & Robotics Engineer 🤖 with experience in automation technology, AI applications and embedded systems development. Working on innovative solutions for real-world challenges through smart IoT systems."
+    "HMI / Embedded Systems & IoT Engineer ⚡ Specializing in high-performance desktop instrumentation (.NET 8 WPF, PyQt6), real-time data acquisition, wireless connectivity (BLE GATT, LTE-M/NB-IoT), and low-level firmware engineering."
   ),
-  resumeLink:
-    "https://www.canva.com/design/DAGbyXOqKBI/k30bWfuZh-wNNUGhZ-WUYQ/edit", // Will update when you have a resume link
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "https://anhducad1111.github.io",
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -39,8 +38,7 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/anhducad1111",
   facebook: "https://www.facebook.com/anhducad1111",
   medium: "https://medium.com/@anhducad1111",
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true
 };
 
 // Skills Section
@@ -48,46 +46,46 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "IOT & ROBOTICS ENGINEER SPECIALIZING IN SMART AUTOMATION SOLUTIONS",
+    "HMI / EMBEDDED / IOT ENGINEER BRIDGING HARDWARE WITH REAL-TIME SOFTWARE",
   skills: [
     emoji(
-      "⚡ Develop IoT systems and robotics applications for automation and monitoring"
+      "⚡ High-performance desktop HMI and scientific data acquisition (.NET 8 WPF, ScottPlot 5, PyQt6, OpenGL)"
     ),
     emoji(
-      "⚡ Machine learning and computer vision integration for smart systems"
+      "⚡ Embedded wireless connectivity and binary framing (BLE GATT, LTE-M / NB-IoT, LoRaWAN, UART 1 Mbps+)"
     ),
     emoji(
-      "⚡ Mobile and web interfaces for IoT device control and data visualization"
+      "⚡ ARM Cortex-M firmware development, bare-metal peripheral drivers, and hardware bring-up"
     )
   ],
   softwareSkills: [
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "c",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "c++",
       fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "c# / .NET",
+      fontAwesomeClassname: "fab fa-windows"
     },
     {
-      skillName: "react-native",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "flutter",
-      fontAwesomeClassname: "fas fa-mobile-alt"
+      skillName: "kotlin",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
-      skillName: "raspberry-pi",
-      fontAwesomeClassname: "fab fa-raspberry-pi"
-    },
-    {
-      skillName: "arduino",
+      skillName: "arm cortex",
       fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "bluetooth ble",
+      fontAwesomeClassname: "fab fa-bluetooth-b"
     },
     {
       skillName: "linux",
@@ -98,7 +96,7 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
@@ -108,14 +106,14 @@ const educationInfo = {
   schools: [
     {
       schoolName:
-        "Vietnam-Korea University (VKU)",
+        "Vietnam-Korea University of Information Technology and Communications (VKU)",
       logo: require("./assets/images/logoVKU.png"),
-      subHeader: "IoT & Robotics Engineering",
-      duration: "2021 - Present",
-      desc: "Currently pursuing studies in IoT systems and robotics applications with GPA: 3.14/4.0",
+      subHeader: "Bachelor of Science in Information Technology — Major: IoT & Robotics",
+      duration: "Aug 2021 – Apr 2026",
+      desc: "Graduated with GPA: 3.21 / 4.0 · Graduation Thesis: 8.7 / 10",
       descBullets: [
-        "Specializing in automation technology and embedded systems",
-        "Focus on AI and computer vision integration"
+        "Focused on Edge AI, embedded systems, robotics, and industrial IoT communication",
+        "Graduation Thesis: Smart Water Meter & Edge AI Monitoring System running offline on ESP32-CAM"
       ]
     }
   ]
@@ -127,86 +125,143 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     {
-      Stack: "IoT & Embedded Systems",
-      progressPercentage: "65%"
+      Stack: "Real-Time HMI & Desktop Software (.NET WPF / PyQt6)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Computer Vision & AI",
-      progressPercentage: "55%"
+      Stack: "Embedded Wireless & Protocols (BLE GATT / LTE-M / UART)",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Mobile & Web Development",
-      progressPercentage: "60%"
+      Stack: "Embedded Firmware & Hardware Integration (ARM / C / C++)",
+      progressPercentage: "75%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: false
+  display: true,
+  experience: [
+    {
+      role: "Junior Firmware Developer (Secondment)",
+      company: "THESIS PTE LTD (Singapore)",
+      companylogo: require("./assets/images/nextuLogo.webp"),
+      date: "Sep 2026 – Present",
+      desc: "Developing and maintaining embedded firmware in C/C++ for ARM Cortex-M platforms under senior engineering guidance.",
+      descBullets: [
+        "Working with peripheral interfaces including UART, SPI, I²C, GPIO, and ADC across bare-metal systems.",
+        "Supporting hardware bring-up, PCB integration, and debugging using J-Link, SWD, and serial analyzers.",
+        "Participating in firmware code reviews and maintaining technical design documentation."
+      ]
+    },
+    {
+      role: "HMI / Embedded / IoT Engineer",
+      company: "Enable Startup (Da Nang)",
+      companylogo: require("./assets/images/saayaHealthLogo.webp"),
+      date: "Jun 2025 – Present",
+      desc: "Architecting high-speed scientific instrumentation, DAQ platforms, and automated test fixtures.",
+      descBullets: [
+        "Multi-process scientific workbench in Python (PyQt6/PyQtGraph) with SOS Butterworth DSP and auto-lock PID at 60 FPS.",
+        "High-performance C# .NET 8 WPF HMIs (MVVM + ScottPlot 5) sustaining 200,000-point real-time plots over 1 Mbps UART.",
+        "Dual-port serial ATE system reducing PCB factory functional test cycle time from 10 minutes to under 45 seconds.",
+        "Application firmware for PSoC6 host interfacing nRF9160 LTE-M/NB-IoT modem via AT commands."
+      ]
+    }
+  ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true",
+  display: true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Featured Projects",
-  subtitle: "INNOVATIVE IOT AND ROBOTICS SOLUTIONS",
+  subtitle: "PRECISION SCIENTIFIC INSTRUMENTATION, WIRELESS TOOLS & EDGE AI",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "IoT Fire Monitoring and Alert System",
+      image: require("./assets/images/developerActivity.svg"),
+      projectName: "Real-Time Laser Frequency Stabilization Workbench",
       projectDesc:
-        "Real-time monitoring system for temperature, humidity, and fire detection with instant alerts",
+        "Scientific control workbench with 4th-order SOS Butterworth DSP, phase-sensitive demodulation, and sub-millivolt auto-lock state machine at 60 FPS OpenGL rendering.",
       footerLink: [
         {
-          name: "Project Details",
+          name: "GitHub Profile",
           url: "https://github.com/anhducad1111"
         }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Drone Simulation for Workplace Safety",
+      image: require("./assets/images/programmer.svg"),
+      projectName: "Industrial BLE OTA & Field Diagnostic Tool",
       projectDesc:
-        "Simulation of drones for monitoring workers and checking safety equipment compliance",
+        "Android field companion porting Cypress DFU protocol to Kotlin Coroutines; dual-mode transfer, CRC-32C Castagnoli, and 100% success rate across 150+ cycles under factory RF noise.",
       footerLink: [
         {
-          name: "Project Details",
+          name: "GitHub Profile",
           url: "https://github.com/anhducad1111"
         }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Smart Water Meter and Home Monitoring",
+      image: require("./assets/images/pwa.webp"),
+      projectName: "Smart Water Meter & Edge AI System",
       projectDesc:
-        "Camera-based water meter reading system with home environment monitoring and remote control",
+        "Offline edge-AI digit recognition pipeline: ROI preprocessing, INT8-quantized CNN on ESP32-CAM, and LoRa/MQTT remote uplink (~98% accuracy, Thesis scored 8.7/10).",
       footerLink: [
         {
-          name: "Project Details",
+          name: "GitHub Profile",
           url: "https://github.com/anhducad1111"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  display: false
+  title: emoji("Achievements & Certifications 🏆"),
+  subtitle: "ACADEMIC HONORS AND CERTIFICATIONS",
+  display: true,
+  achievementsCards: [
+    {
+      title: "Third Prize — VKU Startup 2025",
+      subtitle:
+        "Awarded Third Prize at VKU Startup Competition for AI-powered autonomous IoT fire detection system.",
+      image: require("./assets/images/logoVKU.png"),
+      imageAlt: "VKU Award",
+      footerLink: [
+        {
+          name: "Details",
+          url: "https://github.com/anhducad1111"
+        }
+      ]
+    },
+    {
+      title: "VSTEP English Certificate — Level B2",
+      subtitle:
+        "Certified English proficiency for international engineering collaboration and technical documentation.",
+      image: require("./assets/images/logoVKU.png"),
+      imageAlt: "VSTEP Certificate",
+      footerLink: [
+        {
+          name: "Details",
+          url: "https://github.com/anhducad1111"
+        }
+      ]
+    }
+  ]
 };
 
 // Blogs Section
@@ -254,23 +309,19 @@ const podcastSection = {
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "Download my latest verified engineering CV",
+  display: true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Interested in IoT solutions or just want to connect? Feel free to reach out!",
+    "Interested in real-time HMI, embedded firmware, or IoT engineering? Feel free to reach out!",
   number: "+84 943079599",
   email_address: "anhducad1111@gmail.com"
 };
 
-
-
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true;
 
 export {
   illustration,
