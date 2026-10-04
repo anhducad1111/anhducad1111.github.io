@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "HMI / Embedded Systems & IoT Engineer ⚡ Specializing in high-performance desktop instrumentation (.NET 8 WPF, PyQt6), real-time data acquisition, wireless connectivity (BLE GATT, LTE-M/NB-IoT), and low-level firmware engineering."
   ),
-  resumeLink: "https://anhducad1111.github.io",
+  resumeLink: "https://raw.githubusercontent.com/anhducad1111/anhducad1111/main/CVNAD.pdf",
   displayGreeting: true
 };
 
