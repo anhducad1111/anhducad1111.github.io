@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.575fd414.css",
-    "main.js": "/static/js/main.1ffedc6a.js",
+    "main.js": "/static/js/main.a9a81a56.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.41d4bf68.chunk.js": "/static/js/487.41d4bf68.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.893d78e5.chunk.js": "/static/js/990.893d78e5.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Ribeye-Regular.ttf": "/static/media/Ribeye-Regular.7089bd1fdbb65cb68f42.ttf",
-    "static/media/resume.pdf": "/static/media/resume.6fa9d2f993e4279c5424.pdf",
+    "static/media/resume.pdf": "/static/media/resume.ab7a7054a35b79acadcc.pdf",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/logoVKU.png": "/static/media/logoVKU.4ec9e56a4924089cdad4.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -21,7 +21,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.575fd414.css.map": "/static/css/main.575fd414.css.map",
-    "main.1ffedc6a.js.map": "/static/js/main.1ffedc6a.js.map",
+    "main.a9a81a56.js.map": "/static/js/main.a9a81a56.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.41d4bf68.chunk.js.map": "/static/js/487.41d4bf68.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.575fd414.css",
-    "static/js/main.1ffedc6a.js"
+    "static/js/main.a9a81a56.js"
   ]
 }
